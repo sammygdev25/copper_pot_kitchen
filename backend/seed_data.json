@@ -1,0 +1,507 @@
+[
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "username": "demo",
+      "email": "demo@example.com",
+      "password": "pbkdf2_sha256$1200000$mHuVc90IawgfjVDKIz8ZM1$jWtB2pygfw/l9Fjy39aSwKhDZYY/FGA5lSZ9MqqJ9UI=",
+      "role": "customer",
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "username": "staff_amy",
+      "email": "amy.rivera@copperpotkitchen.com",
+      "password": "pbkdf2_sha256$600000$demoHashAmy$abc123",
+      "role": "staff",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+      "username": "jordan_lee",
+      "email": "jordan.lee@gmail.com",
+      "password": "pbkdf2_sha256$600000$demoHashJor$abc123",
+      "role": "customer",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+      "username": "maria_gomez",
+      "email": "maria.gomez@yahoo.com",
+      "password": "pbkdf2_sha256$600000$demoHashMar$abc123",
+      "role": "customer",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+      "username": "kevin_chen",
+      "email": "kevin.chen@copperpotkitchen.com",
+      "password": "pbkdf2_sha256$600000$demoHashKev$abc123",
+      "role": "staff",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 6,
+    "fields": {
+      "username": "priya_patel",
+      "email": "priya.patel@outlook.com",
+      "password": "pbkdf2_sha256$600000$demoHashPri$abc123",
+      "role": "customer",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 7,
+    "fields": {
+      "username": "tom_walsh",
+      "email": "tom.walsh@copperpotkitchen.com",
+      "password": "pbkdf2_sha256$600000$demoHashTom$abc123",
+      "role": "staff",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 8,
+    "fields": {
+      "username": "lisa_nguyen",
+      "email": "lisa.nguyen@gmail.com",
+      "password": "pbkdf2_sha256$600000$demoHashLis$abc123",
+      "role": "customer",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 1,
+    "fields": {
+      "name": "Starters",
+      "slug": "starters",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 2,
+    "fields": {
+      "name": "Soups & Salads",
+      "slug": "soups-salads",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 3,
+    "fields": {
+      "name": "Handmade Pasta",
+      "slug": "handmade-pasta",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 4,
+    "fields": {
+      "name": "Wood-Fired Pizza",
+      "slug": "wood-fired-pizza",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 5,
+    "fields": {
+      "name": "Main Courses",
+      "slug": "main-courses",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 6,
+    "fields": {
+      "name": "Sandwiches & Burgers",
+      "slug": "sandwiches-burgers",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 7,
+    "fields": {
+      "name": "Desserts",
+      "slug": "desserts",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 8,
+    "fields": {
+      "name": "Beverages",
+      "slug": "beverages",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 1,
+    "fields": {
+      "name": "Crispy Calamari Fritti",
+      "category": 1,
+      "price": "13.95",
+      "description": "Lightly fried calamari with lemon aioli and marinara dipping sauce.",
+      "photo": "/img/dishes/crispy-calamari-fritti.jpg",
+      "is_vegetarian": false,
+      "is_spicy": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 2,
+    "fields": {
+      "name": "Roasted Tomato Basil Soup",
+      "category": 2,
+      "price": "8.50",
+      "description": "Slow-roasted tomatoes blended with fresh basil and a swirl of cream.",
+      "photo": "/img/dishes/roasted-tomato-basil-soup.jpg",
+      "is_vegetarian": true,
+      "is_spicy": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 3,
+    "fields": {
+      "name": "Wild Mushroom Tagliatelle",
+      "category": 3,
+      "price": "19.75",
+      "description": "Fresh tagliatelle tossed with wild mushrooms in a sage brown butter sauce.",
+      "photo": "/img/dishes/wild-mushroom-tagliatelle.jpg",
+      "is_vegetarian": true,
+      "is_spicy": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 4,
+    "fields": {
+      "name": "Margherita Wood-Fired Pizza",
+      "category": 4,
+      "price": "16.00",
+      "description": "San Marzano tomatoes, fresh mozzarella, and basil on a blistered crust.",
+      "photo": "/img/dishes/margherita-wood-fired-pizza.jpg",
+      "is_vegetarian": true,
+      "is_spicy": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 5,
+    "fields": {
+      "name": "Pan-Seared Salmon",
+      "category": 5,
+      "price": "24.50",
+      "description": "Crispy-skin salmon over lemon risotto with charred asparagus.",
+      "photo": "/img/dishes/pan-seared-salmon.jpg",
+      "is_vegetarian": false,
+      "is_spicy": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 6,
+    "fields": {
+      "name": "Copper Pot Smash Burger",
+      "category": 6,
+      "price": "15.25",
+      "description": "Double smash patties, cheddar, pickled jalape\u00f1os, and house sauce.",
+      "photo": "/img/dishes/copper-pot-smash-burger.jpg",
+      "is_vegetarian": false,
+      "is_spicy": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 7,
+    "fields": {
+      "name": "Dark Chocolate Lava Cake",
+      "category": 7,
+      "price": "9.00",
+      "description": "Warm chocolate cake with a molten center, served with vanilla gelato.",
+      "photo": "/img/dishes/dark-chocolate-lava-cake.jpg",
+      "is_vegetarian": true,
+      "is_spicy": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 8,
+    "fields": {
+      "name": "House-Made Ginger Lemonade",
+      "category": 8,
+      "price": "4.75",
+      "description": "Fresh-squeezed lemonade infused with ginger and mint.",
+      "photo": "/img/dishes/house-made-ginger-lemonade.jpg",
+      "is_vegetarian": true,
+      "is_spicy": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "status": "completed",
+      "total_amount": "27.90",
+      "is_paid": true,
+      "paid_at": "2024-02-10T18:45:00Z",
+      "stripe_session_id": "cs_test_demo_order1",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "status": "preparing",
+      "total_amount": "16.00",
+      "is_paid": true,
+      "paid_at": "2024-02-14T12:05:00Z",
+      "stripe_session_id": "cs_test_demo_order2",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "status": "placed",
+      "total_amount": "15.25",
+      "is_paid": false,
+      "paid_at": null,
+      "stripe_session_id": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "status": "ready",
+      "total_amount": "27.00",
+      "is_paid": true,
+      "paid_at": "2024-02-18T19:20:00Z",
+      "stripe_session_id": "cs_test_demo_order4",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "status": "completed",
+      "total_amount": "17.00",
+      "is_paid": true,
+      "paid_at": "2024-02-20T13:00:00Z",
+      "stripe_session_id": "cs_test_demo_order5",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 6,
+    "fields": {
+      "user": 8,
+      "status": "placed",
+      "total_amount": "19.75",
+      "is_paid": false,
+      "paid_at": null,
+      "stripe_session_id": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "status": "preparing",
+      "total_amount": "24.50",
+      "is_paid": true,
+      "paid_at": "2024-02-22T20:10:00Z",
+      "stripe_session_id": "cs_test_demo_order7",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 8,
+    "fields": {
+      "user": 3,
+      "status": "completed",
+      "total_amount": "19.00",
+      "is_paid": true,
+      "paid_at": "2024-02-23T11:30:00Z",
+      "stripe_session_id": "cs_test_demo_order8",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "dish": 1,
+      "quantity": 2,
+      "price": "13.95",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 2,
+    "fields": {
+      "order": 2,
+      "dish": 4,
+      "quantity": 1,
+      "price": "16.00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 3,
+    "fields": {
+      "order": 3,
+      "dish": 6,
+      "quantity": 1,
+      "price": "15.25",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 4,
+    "fields": {
+      "order": 4,
+      "dish": 7,
+      "quantity": 3,
+      "price": "9.00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 5,
+    "fields": {
+      "order": 5,
+      "dish": 2,
+      "quantity": 2,
+      "price": "8.50",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 6,
+    "fields": {
+      "order": 6,
+      "dish": 3,
+      "quantity": 1,
+      "price": "19.75",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 7,
+    "fields": {
+      "order": 7,
+      "dish": 5,
+      "quantity": 1,
+      "price": "24.50",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 8,
+    "fields": {
+      "order": 8,
+      "dish": 8,
+      "quantity": 4,
+      "price": "4.75",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]
